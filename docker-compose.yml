@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+    search:
+        build: ./search
+        container_name: search
+        links:
+        - indexer:search
+        ports:
+        - 7777:7777
+    indexer:
+        build: ./indexer
+        container_name: indexer

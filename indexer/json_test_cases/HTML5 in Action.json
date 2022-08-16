@@ -1,0 +1,15 @@
+{"title" : "HTML5 in Action", "text" : "The Web is buzzing about HTML5. What is it? Which browsers support what features? When the specification will be complete? HTML5, along with supporting technologies like CSS3, SVG, and JavaScript, gives web developers powerful new features like local storage, better audio and video support, and standards-driven mobile application development. And it's ready to use now, with browser support from Microsoft, Google, Apple, Mozilla, and Opera.
+
+HTML5 In Action provides a complete introduction to web development using HTML5. You'll explore every aspect of the HTML5 specification through real-world examples and code samples. It's much more than just a specification reference, though. It lives up to the name HTML5 in Action by giving you the practical, hands-on guidance you'll need to use key features like:
+
+    * The new semantic elements and form input types
+    * Native multimedia playback with the video and audio elements
+    * Canvas and 2D drawing APIs
+    * Offline applications
+    * Local and session storage, IndexedDB databases
+    * Web workers
+    * Geolocation, File API, History API
+    * Cross-document Message API
+    * Much, much more
+
+With this book, you can confidently start using HTML5 today. The relevant, easy-to-follow examples will make you a HTML5 master in no time. You'll even learn how to provide fallbacks for browsers that don't support particular HTML5 features."}
