@@ -88,7 +88,7 @@ def search():
     query_dict = lemmatise(q)
 
     # Turn into a df
-    index_resp = requests.get(url='http://indexer:7777/index').json()
+    index_resp = requests.get(url='http://indexer:7776/index').json()
     df = pd.DataFrame(data=index_resp)
 
     # Which columns appear in the query dictionary?

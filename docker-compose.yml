@@ -10,3 +10,5 @@ services:
     indexer:
         build: ./indexer
         container_name: indexer
+        ports:
+        - 7776:7776

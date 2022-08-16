@@ -6,6 +6,6 @@ COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
 RUN pip install -r requirements.txt
 RUN spacy download en_core_web_lg
-EXPOSE 7777
+EXPOSE 7776
 COPY . /app
-CMD ["python3", "-m", "flask", "--app", "indexer.py", "run", "-h", "0.0.0.0", "-p", "7777"]
+CMD ["python3", "-m", "flask", "--app", "indexer.py", "run", "-h", "0.0.0.0", "-p", "7776"]

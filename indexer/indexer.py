@@ -104,8 +104,10 @@ def index():
     files = [f for f in listdir() if isfile(join(f))]# and f[-5:-1] == '.json']
     
     # Is there a cache file?
-    if CACHE_FILE_NAME in files:
-        return pd.read_csv(open(CACHE_FILE_NAME))
+    if CACHE_FILE_NAME in listdir(CACHE_FILE_PATH):
+        os.chdir(CACHE_FILE_PATH)
+        print('Cache found')
+        return pd.read_csv(CACHE_FILE_NAME).to_json()
     else:
         # Create a dictionary based on the txts, or the complete contents of that literary work as lemmas
         txts_dict = dict()
@@ -130,4 +132,4 @@ def index():
         return df.to_json()
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=7777)
+    app.run(host='0.0.0.0', port=7776)
