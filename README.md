@@ -18,3 +18,6 @@ In a shell, ./pragma_once will trigger the 2 containers to build. For Docker Hub
 # Ports Required
 The following ports must be free:
 7777, 7776
+
+# Getting Help
+Contact the author, Motoko Wang via GitHub.
