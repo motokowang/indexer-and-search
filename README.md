@@ -20,4 +20,4 @@ The following ports must be free:
 7777, 7776
 
 # Getting Help
-Contact the author, Motoko Wang via GitHub.
+Contact the author, Motoko Wang via LinkedIn https://www.linkedin.com/in/motokowang/.
